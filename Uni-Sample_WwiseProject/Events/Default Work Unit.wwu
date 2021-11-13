@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DE5C8EFA-1FB9-4CBB-8E5E-EC7655EE51FC}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DE5C8EFA-1FB9-4CBB-8E5E-EC7655EE51FC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="music_start" ID="{F0563638-968C-40B3-8B80-4A383843FA7E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
