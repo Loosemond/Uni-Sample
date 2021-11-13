@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1150065573	smash_against_box			\Default Work Unit\smash_against_box	
+	3725903807	music_start			\Default Work Unit\music_start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	836614298	smash_against_box	Y:\Documents\GitHub\Uni-Sample\Uni-Sample_WwiseProject\.cache\Mac\SFX\66779__kevinkace__crate-break-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\smash_against_box		105948
+

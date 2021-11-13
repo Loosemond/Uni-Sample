@@ -11,6 +11,12 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID MUSIC_START = 3725903807U;
+        static const AkUniqueID SMASH_AGAINST_BOX = 1150065573U;
+    } // namespace EVENTS
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
