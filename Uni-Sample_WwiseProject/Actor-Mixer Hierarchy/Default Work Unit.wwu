@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{87CAEF12-18A0-4F81-AFBC-280E2DB81656}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{87CAEF12-18A0-4F81-AFBC-280E2DB81656}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{87CAEF12-18A0-4F81-AFBC-280E2DB81656}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="smash_against_box" ID="{155189CD-9587-42AC-834C-6F6F552258E9}" ShortID="9516630">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAECAD10-A2D4-477B-AE76-6C651C1CCA24}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FA76D078-1641-4904-B240-60852AEFE5AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="66779__kevinkace__crate-break-3" ID="{CA95F124-094F-41CD-882F-7D9624486F9D}">
+							<Language>SFX</Language>
+							<AudioFile>66779__kevinkace__crate-break-3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="836614298"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="66779__kevinkace__crate-break-3" ID="{CA95F124-094F-41CD-882F-7D9624486F9D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

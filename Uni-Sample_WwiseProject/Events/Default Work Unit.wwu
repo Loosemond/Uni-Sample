@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{DE5C8EFA-1FB9-4CBB-8E5E-EC7655EE51FC}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="music_start" ID="{F0563638-968C-40B3-8B80-4A383843FA7E}"/>
+				<Event Name="smash_against_box" ID="{E1230584-4F0D-4A7C-97ED-B6943CCE150B}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
