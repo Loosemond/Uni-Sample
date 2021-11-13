@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using Un.ityEngine.SceneManagement;
+// using AK.Wwise.Event;
 
 public class Bird : MonoBehaviour
 {
   private Vector3 _initialPosition;
   private bool _birdWasLaunched = false;
-  private float _timeSitingAround;
+  private float _timeSitingAround;  
+
+  public AK.Wwise.Event SynthEvent;
+
 
   // Deste modo podemos editar a variavel no editor
   [SerializeField] private float _launchPower = 20;
@@ -15,7 +19,6 @@ public class Bird : MonoBehaviour
   private void Awake() {
     // Grava a posição inicial
     _initialPosition = transform.position;
-
     
   }
   private void Update() {
@@ -40,6 +43,8 @@ public class Bird : MonoBehaviour
   private void OnMouseDown() 
   {
       GetComponent<SpriteRenderer>().color = Color.red;
+      // SynthEvent.Post("")
+  
     
   }
 
