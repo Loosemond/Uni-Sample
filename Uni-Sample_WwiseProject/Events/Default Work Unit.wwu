@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{DE5C8EFA-1FB9-4CBB-8E5E-EC7655EE51FC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="music_start" ID="{F0563638-968C-40B3-8B80-4A383843FA7E}"/>
+				<Event Name="music_start" ID="{F0563638-968C-40B3-8B80-4A383843FA7E}">
+					<ChildrenList>
+						<Action Name="" ID="{04B07326-A4C3-441E-BBB5-F64613A3E496}" ShortID="284307701">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestMusic" ID="{108607E1-DD08-493C-9D52-6739364CA776}" WorkUnitID="{9FA6C96A-CEAF-4E51-BFAD-93085142DBB8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="smash_against_box" ID="{E1230584-4F0D-4A7C-97ED-B6943CCE150B}">
 					<ChildrenList>
 						<Action Name="" ID="{D892520F-B1F6-4FC4-9318-DA45D6777AAC}" ShortID="659107371">
